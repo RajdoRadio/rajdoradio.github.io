@@ -1,0 +1,140 @@
+.button{
+
+    border-radius: 10px; 
+    border: gray 6px outset; 
+    padding: 5px; 
+    margin-bottom: 5px; 
+    padding: 0; 
+    overflow: hidden;
+}
+
+.button:hover{
+
+    border-radius: 10px; 
+    border: gray 6px outset; 
+    padding: 5px; 
+    margin-bottom: 5px; 
+    padding: 0; 
+    overflow: hidden;
+    background-color: white
+}
+
+.text_button{
+
+    font-size: x-large; 
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    color: white;
+    
+}
+
+.button_left{
+
+    float: left; 
+    width: 13%;
+    margin-left:1cm
+
+}
+
+.button_right{
+
+    float: right; 
+    width: 13%; 
+    margin-right: 1cm;
+
+}
+
+.button_color_discord{
+
+    background-color:#b3ccff
+
+}
+
+    .button_color_discord:hover{
+
+        background-color:#cce5ff
+
+    }
+
+.button_color_serwer_discord{
+
+    background-color:#6699ff
+
+}
+
+    .button_color_serwer_discord:hover{
+
+        background-color:#98cbff
+
+    }
+
+.button_color_stats{
+
+    background-color:#1aa3ff
+
+}
+
+    .button_color_stats:hover{
+
+        background-color:#4cd5ff
+
+    }
+
+.button_color_namemc{
+
+    background-color:#1a53ff
+
+}
+
+    .button_color_namemc:hover{
+
+        background-color:#4c85ff
+
+    }
+.button_color_youtube{
+
+    background-color:#ff1a1a
+
+}
+
+    .button_color_youtube:hover{
+
+        background-color:#ff4c4c
+
+    }
+
+.button_color_twitch{
+
+    background-color:#b366ff
+
+}
+
+    .button_color_twitch:hover{
+
+        background-color:#e598ff
+
+    }
+
+.button_color_steam{
+
+    background-color:#1a75ff
+
+}
+
+    .button_color_steam:hover{
+
+    background-color: #4ca7ff
+
+    }
+
+.button_color_niespodzianka{
+
+    background-color: #ffb3ff
+
+}
+
+    .button_color_niespodzianka:hover{
+
+        background-color: #ffccff
+
+    }
