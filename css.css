@@ -138,3 +138,44 @@
         background-color: #ffccff
 
     }
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    }
+
+.tag{
+
+    font-size: 2cm; 
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    color: black;
+
+}
+
+.button_powrot{
+
+    font-size: xx-large; 
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    color: black;
+    transform: rotate(8.46deg);
+    position: absolute;
+    margin-left:2.75cm; 
+    margin-top: 1.2cm;
+}
+    .button_powrot:hover{
+
+        color: #0080ff;
+        
+    }
+
+.niespodzianka_image{
+
+    border-radius: 10px;
+    float:right;
+    margin-right: 5cm;
+    margin-top: 4cm;
+    box-shadow:0 0 5px black;
+
+}

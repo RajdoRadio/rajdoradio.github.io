@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rajdo</title>
+        <link rel="icon" href="../Elementy graficzne/ikona strony.png">
+        <link rel="stylesheet" href="../css.css">
+    </head>
+
+    <body bgcolor="lightblue" style="background-image: url('../Elementy\ graficzne/Tlo.png'); background-size: 100%">
+        
+        <img src="../Elementy graficzne/zwisanie.png" width="500" style="position: absolute; top:0; margin-left:1cm">
+
+        <a href="../index.html">
+        <div class="button_powrot">Powrót</div>
+        </a>
+
+        <img id="random-image" class="niespodzianka_image">
+            <script>
+
+                let imagePaths = ["cute/cat1.png", "cute/cat2.jpg", "cute/cat3.png", "cute/cat4.jpg", "cute/dog1.png", "cute/dog2.jpg", "cute/dog3.jpg", "cute/dog4.jpg"]
+                document.getElementById("random-image").src = imagePaths[Math.floor(Math.random() * imagePaths.length)]
+
+            </script>
+
+    <img src="../Elementy graficzne/patrzenie.png" width="220" style="position: absolute; bottom:0; margin-left:15cm">
+
+    </body>
+</html>
