@@ -1,3 +1,19 @@
+
+@font-face {
+    font-family: czcionka;
+    src: url('czcionka.otf');
+  }
+.text_title{
+
+    font-size: 3cm;
+    font-family: "czcionka";
+    font-weight: bold;
+
+    margin-top: 10cm;
+    margin-left: 1.5cm;
+    margin-right: 1.5cm;
+}
+
 .button{
 
     border-radius: 10px; 
